@@ -31,7 +31,7 @@ public class MainViewController implements Initializable{
 		System.out.println("onMenuItemVendedorAction");
 	}
 	public void onMenuItemDepartamento() {
-		System.out.println("onMenuItemDepatamentoAction");
+		loadView("/gui/DepartamentoLista.fxml");
 	}
 	public void onMenuItemAboutAction() {
 		loadView("/gui/About.fxml");
